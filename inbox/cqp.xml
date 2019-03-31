@@ -36,16 +36,28 @@
   </revision>
 </header>
 <section1 topic='Introduction' anchor='intro'>
-  <p>This XEP defines how to send an CQP query over XMPP and how the XMPP answer in XML-TEI format looks like.</p>
+  <p>This XEP defines how to send an CQP query over XMPP and how the XMPP answer in XML-TEI format looks like. This XEP also defines the the media answer thus in case the query delivers a media file, this media file is sent via ... XMPP ... TODO</p>
+  <p>The CQP standard is defined - irritatingly - in a tutorial only: http://cwb.sourceforge.net/files/CQP_Tutorial.pdf</p>
 </section1>
 <section1 topic='Requirements' anchor='reqs'>
   <p>STRONGLY RECOMMENDED.</p>
 </section1>
 <section1 topic='Glossary' anchor='glossary'>
-  <p>OPTIONAL.</p>
+  <p>The following terms from the field of Corpus Research are used throughout the document:</p>
+  <dl>
+    <di><dt>Corpus</dt><dd>A language corpus is a certain collection of natural language recources.</dd></di>
+    <di><dt>Spoken Corpus</dt><dd>A spoken corpus is a collection of recources of spoken natural language. This can comprise media files, transcripts, metadate.</dd></di>
+    <di><dt>Transcript</dt><dd></dd></di>
+    <di><dt>ISO-TEI</dt><dd></dd></di>
+    <di><dt>CQP</dt><dd></dd></di>
+    <di><dt>CQL</dt><dd></dd></di>
+    <di><dt></dt><dd></dd></di>
+    <di><dt></dt><dd></dd></di>
+  </dl>
 </section1>
 <section1 topic='Use Cases' anchor='usecases'>
-  <p>STRONGLY RECOMMENDED.</p>
+  <p> UseCase: query a language corpus 
+  Use Case 1: Query a (spoken?) language corpus in ISO-TEI format via CQP and receive the queried chunks of the corpus. Do all this over XMPP.</p>
 </section1>
 <section1 topic='Business Rules' anchor='rules'>
   <p>OPTIONAL.</p>
