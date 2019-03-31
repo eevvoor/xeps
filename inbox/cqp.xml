@@ -6,8 +6,8 @@
 <?xml-stylesheet type='text/xsl' href='xep.xsl'?>
 <xep>
 <header>
-  <title>XEP Template</title>
-  <abstract>This specification provides an example of the format for XMPP Extension Protocols (XEPs).</abstract>
+  <title>XEP CQP</title>
+  <abstract>Send CQP queries via XMPP.</abstract>
   &LEGALNOTICE;
   <number>xxxx</number>
   <status>ProtoXEP</status>
@@ -21,22 +21,22 @@
   </dependencies>
   <supersedes/>
   <supersededby/>
-  <shortname>NOT_YET_ASSIGNED</shortname>
+  <shortname>CQP</shortname>
   <author>
-    <firstname>Peter</firstname>
-    <surname>Saint-Andre</surname>
-    <email>stpeter@jabber.org</email>
-    <jid>stpeter@jabber.org</jid>
+    <firstname>eevvoor</firstname>
+    <surname></surname>
+    <email>eevvoor@mailbox.org</email>
+    <jid>eevvoor@jabber.org</jid>
   </author>
   <revision>
     <version>0.0.1</version>
-    <date>2001-09-14</date>
-    <initials>psa</initials>
+    <date>2019-03-31</date>
+    <initials>ym</initials>
     <remark><p>First draft.</p></remark>
   </revision>
 </header>
 <section1 topic='Introduction' anchor='intro'>
-  <p>This is a template for use in writing XMPP Extension Protocol specifications (XEPs). For detailed information about the XSF's standards process and how to write a XEP, refer to "XEP-0001: XMPP Extension Protocols" and "XEP-0143: Guidelines for Authors of XMPP Extension Protocols".</p>
+  <p>This XEP defines how to send an CQP query over XMPP and how the XMPP answer in XML-TEI format looks like.</p>
 </section1>
 <section1 topic='Requirements' anchor='reqs'>
   <p>STRONGLY RECOMMENDED.</p>
